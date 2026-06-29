@@ -1,0 +1,32 @@
+body {
+margin:0;
+font-family: Arial;
+background: black;
+color:white;
+text-align:center;
+}
+
+.intro {
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background: linear-gradient(135deg,#ff4d6d,#ffb3c1);
+}
+
+button {
+padding:10px 15px;
+border:none;
+border-radius:10px;
+margin:5px;
+cursor:pointer;
+}
+
+.hidden { display:none; }
+
+.menu {
+display:flex;
+flex-direction:column;
+margin-top:50px;
+}
